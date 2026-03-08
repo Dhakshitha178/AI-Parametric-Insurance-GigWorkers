@@ -66,3 +66,26 @@ function toast(icon, msg) {
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 3200);
 }
+// NEW: calculate plan based on income
+function calculateIncomePlan(){
+
+  let dailyIncome = document.getElementById("dailyIncome").value;
+
+  if(!dailyIncome) return;
+
+  let weeklyIncome = dailyIncome * 7;
+
+  let suggestedPlan = "";
+
+  if(weeklyIncome < 3500){
+    suggestedPlan = "Low Risk Plan (₹20/week)";
+  }
+  else if(weeklyIncome <= 7000){
+    suggestedPlan = "Medium Risk Plan (₹35/week)";
+  }
+  else{
+    suggestedPlan = "High Risk Plan (₹50/week)";
+  }
+
+  toast("💡 Suggested plan based on income: " + suggestedPlan);
+}
