@@ -1,0 +1,5 @@
+.ob-nav{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:16px;border-top:1px solid var(--border-light)}
+.policy-hero{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
+.policy-name{font-size:20px;font-weight:500} .policy-id{font-size:12px;color:var(--text-muted);font-family:var(--font-mono);margin-top:3px}
+.policy-upi{font-size:12px;color:var(--text-secondary);margin-top:12px;padding-top:12px;border-top:1px solid var(--border-light)}
+.premium-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid var(--border-light);font-size:13px} .premium-row:last-child{border-bottom:none}
