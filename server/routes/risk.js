@@ -1,6 +1,6 @@
 const express = require('express');
 const router  = express.Router();
-const { assessRisk, detectFraud } = require('../../client/src/services/aiRiskService');
+const { assessRisk, detectFraud } = require('../../client/src/services/aiRiskService')
 
 router.post('/assess', async (req, res, next) => {
   try {
