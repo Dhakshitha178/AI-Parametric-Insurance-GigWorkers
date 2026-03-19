@@ -1,8 +1,11 @@
 # 🛡️ GigShield — AI-Powered Parametric Income Insurance
 
-> **Protecting India's delivery partners against income loss from uncontrollable external disruptions — automatically, intelligently, and instantly.**
+>**Protecting India's delivery partners against income loss from uncontrollable external disruptions — automatically, intelligently, and instantly.**
 
----
+Live Demo:
+https://ai-parametric-insurance-gig-workers-nu.vercel.app/
+
+
 
 ## 📌 Table of Contents
 
