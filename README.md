@@ -561,6 +561,34 @@ gigshield-pro/
 | Analytics dashboard with Recharts charts | Live |
 | Full mock fallback without API keys | Live |
 
+## 📊 Actuarial Analysis
+
+See the full actuarial model, trigger probability estimates, loss ratio 
+calculations, and pricing sensitivity table here → [ACTUARIAL.md](./ACTUARIAL.md)
+
+---
+
+## 🚫 Complete Exclusions List
+
+### Standard Exclusions
+- Health, illness, or personal injury
+- Vehicle damage, breakdown, or maintenance
+- Life insurance or accidental death
+- Self-reported disruptions (no API validation)
+- Duplicate claims for the same event window
+- Claims without valid location data
+- Scheduled platform maintenance windows
+
+### Catastrophic Exclusions (added Phase 2)
+- War, civil war, invasion, or armed conflict
+- Pandemic or epidemic declared by WHO or Government of India
+- Nuclear, biological, chemical, or radiological events
+- Government-imposed lockdowns or curfews lasting more than 7 days
+- Terrorism or deliberate sabotage of infrastructure
+- Earthquake, tsunami, or volcanic eruption
+- Nationwide internet or telecom shutdown
+- Force majeure events beyond parametric API measurement
+
 ---
 
 *Because the people who deliver your dinner deserve a safety net too.*
