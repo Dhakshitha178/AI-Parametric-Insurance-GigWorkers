@@ -304,6 +304,60 @@ Payout          =  Estimated loss x plan coverage multiplier (0.6 / 0.8 / 1.0)
 **Phase 2 enhancement:** Replace the fixed 25% loss estimate with an ML model trained on actual earnings drop data during past disruption events, segmented by disruption type, city, and time of day.
 
 ---
+## 📉 Market Crash False Detection
+
+### 🚀 Overview
+
+The Market Crash False Detection module is designed to identify and filter out false signals of market crashes. In highly volatile environments, temporary fluctuations or noise can often be misinterpreted as a crash. This system helps distinguish between actual market downturns and short-term anomalies, ensuring more reliable decision-making.
+
+### 🎯 Objective
+
+* Reduce false alarms triggered by temporary price drops
+* Improve accuracy in detecting real market crashes
+* Assist users in making informed decisions
+
+### ⚙️ How It Works
+
+The system analyzes market data using:
+
+* Historical trends to understand normal behavior
+* Sudden price movements and volatility patterns
+* Time-based validation to check if the drop is sustained
+* Threshold filtering to ignore minor fluctuations
+
+If a detected crash does not meet predefined criteria, it is classified as a false crash signal.
+
+### 🧠 Key Features
+
+* Real-time monitoring
+* Noise reduction using filtering techniques
+* Configurable thresholds
+* Scalable for different datasets
+
+### 🛠️ Technologies Used
+
+* Data Analysis
+* Statistical Models / Machine Learning (optional)
+* API Integration for live data
+
+### 📌 Use Cases
+
+* Stock market analysis
+* Cryptocurrency monitoring
+* Risk management systems
+
+### ⚠️ Limitations
+
+* Depends on input data quality
+* May produce edge cases in extreme scenarios
+* Requires proper tuning
+
+### 📈 Future Enhancements
+
+* AI-based predictive models
+* Adaptive learning from new data
+* Visualization dashboards
+
 
 ## 7. Tech Stack
 
